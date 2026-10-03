@@ -1,34 +1,38 @@
 {
-  "version": "v1.1.1",
-  "selected_baseline": "feedback-12",
-  "skill_sha256": "fefcbc7f3071165aec54c252cb70ed6280257db1f84db58a5c9e6503d9a1e027",
+  "version": "v1.1.2",
+  "selected_baseline": "feedback-13",
+  "skill_sha256": "1995327708146d90f453cf318c69f45cba0a9f9263da8d671f1671c96da512d7",
   "files": [
     {
       "path": "references/store-and-comparison.md",
       "archive_member": "write-natural-reviews/references/store-and-comparison.md",
-      "sha256": "d355a9badb6755c379f0b510960272bb88b39dbc73baccce59ed21d40c112c89"
+      "sha256": "f19c5ab073ed758acb7b0feb98e187ba10e4c6d3b97f267843edec2bfaf89198"
     },
     {
       "path": "SKILL.md",
       "archive_member": "write-natural-reviews/SKILL.md",
-      "sha256": "fefcbc7f3071165aec54c252cb70ed6280257db1f84db58a5c9e6503d9a1e027"
+      "sha256": "1995327708146d90f453cf318c69f45cba0a9f9263da8d671f1671c96da512d7"
     }
   ],
-  "archive_sha256": "fdef27acb70443dda258c0e321b65f510d420f1bdd2c3789eaa055725280df9c",
+  "archive_sha256": "eeb3e292caadb0605de93b584a414c6272c998037aab39c7826b955a23e199c4",
   "content_changes_for_release": false,
   "behavioral_validation": {
-    "test": "import-default-clean-01",
-    "isolated_writer": true,
-    "products": 3,
-    "identity_pass": 3,
-    "request_repeats_import_requirement": false,
-    "raw_results_sha256": "75f01670142f7fa786bfcf3bfd258a28094f6396cbfe432a073c1c335e9c3905",
+    "main_test": "offline-context-clean-01",
+    "main_products": 6,
+    "main_independent_review": "mode and identity requirements met",
+    "supplement_test": "offline-duty-free-clean-01",
+    "supplement_products": 1,
+    "supplement_review": "primary agent",
+    "offline_context_and_redundancy_pass": 4,
+    "non_offline_import_identity_pass": 3,
+    "raw_results_sha256": "5f1643914f34600e77aa42ff1e10c1cd4130fdc0d95ee14432ced9b0736b9d7c",
+    "supplement_results_sha256": "5b8031d0efb6536a02b63419e2cde334f27c33929f08ff7959e1904b80fae98f",
     "general_writing_improvement_claim": false
   },
   "structural_validation": {
     "valid": true,
     "message": "Skill is valid!",
-    "changes_limited_to_identity_rule_and_conflicting_phrase": true,
-    "references_unchanged": true
+    "changes_limited_to_identity_and_offline_guidance": true,
+    "original_ten_samples_unchanged": true
   }
 }
