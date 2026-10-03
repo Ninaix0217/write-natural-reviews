@@ -1,7 +1,7 @@
 {
-  "version": "v1.1.0",
-  "selected_baseline": "feedback-11",
-  "skill_sha256": "f97e12616afc8ad184b7a4899eb3066b8973236fb1ead09f9309a17ea5e14d10",
+  "version": "v1.1.1",
+  "selected_baseline": "feedback-12",
+  "skill_sha256": "fefcbc7f3071165aec54c252cb70ed6280257db1f84db58a5c9e6503d9a1e027",
   "files": [
     {
       "path": "references/store-and-comparison.md",
@@ -11,23 +11,24 @@
     {
       "path": "SKILL.md",
       "archive_member": "write-natural-reviews/SKILL.md",
-      "sha256": "f97e12616afc8ad184b7a4899eb3066b8973236fb1ead09f9309a17ea5e14d10"
+      "sha256": "fefcbc7f3071165aec54c252cb70ed6280257db1f84db58a5c9e6503d9a1e027"
     }
   ],
-  "archive_sha256": "eaeb232193d3844e7130d8ac27f38a2127345c7a83a043851cd4d081877974f5",
+  "archive_sha256": "fdef27acb70443dda258c0e321b65f510d420f1bdd2c3789eaa055725280df9c",
   "content_changes_for_release": false,
   "behavioral_validation": {
-    "products": 10,
+    "test": "import-default-clean-01",
     "isolated_writer": true,
-    "independent_review": {
-      "keep": 7,
-      "local_edits": 3,
-      "rewrite": 0
-    },
-    "comparison_does_not_establish_stable_superiority": true
+    "products": 3,
+    "identity_pass": 3,
+    "request_repeats_import_requirement": false,
+    "raw_results_sha256": "75f01670142f7fa786bfcf3bfd258a28094f6396cbfe432a073c1c335e9c3905",
+    "general_writing_improvement_claim": false
   },
   "structural_validation": {
     "valid": true,
-    "message": "Skill is valid!"
+    "message": "Skill is valid!",
+    "changes_limited_to_identity_rule_and_conflicting_phrase": true,
+    "references_unchanged": true
   }
 }
