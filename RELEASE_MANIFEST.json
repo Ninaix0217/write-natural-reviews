@@ -1,12 +1,33 @@
 {
-  "version": "v1.0.0",
-  "selected_baseline": "feedback-02",
-  "skill_sha256": "cf32e187c9c89f0875b58cdad959c080f7d32613cbe8d54bbc9de2b24aec3d94",
-  "archive_sha256": "62e305d102f242487461df853409d1797985e25261d634e7acd2889da11fe28c",
-  "archive_member": "write-natural-reviews/SKILL.md",
+  "version": "v1.1.0",
+  "selected_baseline": "feedback-11",
+  "skill_sha256": "f97e12616afc8ad184b7a4899eb3066b8973236fb1ead09f9309a17ea5e14d10",
+  "files": [
+    {
+      "path": "references/store-and-comparison.md",
+      "archive_member": "write-natural-reviews/references/store-and-comparison.md",
+      "sha256": "d355a9badb6755c379f0b510960272bb88b39dbc73baccce59ed21d40c112c89"
+    },
+    {
+      "path": "SKILL.md",
+      "archive_member": "write-natural-reviews/SKILL.md",
+      "sha256": "f97e12616afc8ad184b7a4899eb3066b8973236fb1ead09f9309a17ea5e14d10"
+    }
+  ],
+  "archive_sha256": "eaeb232193d3844e7130d8ac27f38a2127345c7a83a043851cd4d081877974f5",
+  "content_changes_for_release": false,
+  "behavioral_validation": {
+    "products": 10,
+    "isolated_writer": true,
+    "independent_review": {
+      "keep": 7,
+      "local_edits": 3,
+      "rewrite": 0
+    },
+    "comparison_does_not_establish_stable_superiority": true
+  },
   "structural_validation": {
     "valid": true,
     "message": "Skill is valid!"
-  },
-  "content_changes_for_release": false
+  }
 }
